@@ -1,0 +1,132 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 171, 255);
+    height: 4rem;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 8px 1px rgb(174, 174, 174);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* max-width: 27rem; */
+
+}
+
+nav ul li{
+    list-style: none;
+    /* margin:15px; */
+    margin-right: 7px;
+}
+.left, .right{
+    /* margin: 15px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+    position: relative;
+    bottom: 0px;
+}
+nav ul li a:hover{
+    /* text-decoration: underline; */
+    color: purple;
+    position: relative;
+    bottom: 3px;
+    transition: 0.1s;
+    border-bottom: 3px solid purple;
+}
+.left{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.left a{
+    text-decoration: none;
+    color: purple;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+i{
+    margin: 5px 20px;
+}
+.footertext{
+    padding-bottom: 1rem;
+}
+
+span{
+    color: purple;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.leftsection{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.third {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 100;
+    /* background-color: rgb(190, 190, 190); */
+    /* box-shadow: 1px 1px 8px 1px rgb(174, 174, 174); */
+    font-weight: 700;
+    max-width: 90vw;
+}
+.first, .second{
+    text-align: center;
+
+}
+.buttons{
+    margin-top:15px;
+    margin-left: 5vw;
+    /* color: blueviolet; */
+}
+.buttons a{
+    background-color: blueviolet;
+    border: 0;
+    /* height: px; */
+    /* width: 156px; */
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.buttons a:hover{
+    background-color: rgb(105, 33, 172);
+
+}
