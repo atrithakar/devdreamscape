@@ -65,15 +65,17 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: auto;
 }
 footer{
-    position: fixed;
-    bottom: 0;
-    padding: px;
+    /* position: fixed; */
+    bottom: 0px;
+    /* padding: px; */
     width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 i{
     margin: 5px 20px;
@@ -101,18 +103,26 @@ span{
     font-size: 1rem;
     text-align: justify;
     font-weight: 100;
+    padding: 0 15px;
     /* background-color: rgb(190, 190, 190); */
     /* box-shadow: 1px 1px 8px 1px rgb(174, 174, 174); */
-    font-weight: 700;
-    max-width: 90vw;
+    /* font-weight: 700; */
+    /* max-width: 40vw; */
+    color:grey;
 }
 .first, .second{
     text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
 
 }
 .buttons{
-    margin-top:15px;
-    margin-left: 5vw;
+    /* margin-top:15px; */
+    /* margin-bottom:15px; */
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    
     /* color: blueviolet; */
 }
 .buttons a{
@@ -129,4 +139,57 @@ span{
 .buttons a:hover{
     background-color: rgb(105, 33, 172);
 
+}
+.secondcontainer{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap-reverse; */
+}
+
+@media only screen and (max-width:741px){
+
+    .secondcontainer{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+
+}
+@media only screen and (max-width:660px){
+
+    nav{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: row;
+    }
+
+
+}
+@media only screen and (max-width:418px){
+
+    nav{
+        height: 6rem;
+    }
+
+
+}
+
+/* main{
+    display: flex;
+    flex-grow: 1;
+} */
+
+.heading{
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.abouttext{
+    text-align: justify;
+}
+.ending{
+    margin-top: 1rem;
 }
